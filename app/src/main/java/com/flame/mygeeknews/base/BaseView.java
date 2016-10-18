@@ -9,5 +9,5 @@ package com.flame.mygeeknews.base;
 public interface BaseView {
     void showError(String msg);
 
-    void useNightMode();
+    void useNightMode(boolean isNight);
 }
